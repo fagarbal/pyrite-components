@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Listing people</title>
+    <script type="text/javascript" src="app.bundle.js"></script></body>
+
+  </head>
+  <body>
+    <template id="header-template">
+      <h1>Header</h1>
+    </template>
+
+    <template id="footer-template">
+      <h1>Footer</h1>
+    </template>
+
+    <parent-component header-template="#header-template" footer-template="#footer-template">
+      <p>Example Content</p>
+      <child-component></child-component>
+    </parent-component>
+  </body>
+</html>
